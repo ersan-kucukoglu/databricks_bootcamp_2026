@@ -125,3 +125,27 @@ df = df.withColumn(
     ).otherwise(to_date(col("sls_order_dt").cast("string"), "yyyyMMdd"))
 )
 ```
+
+---
+
+## 📊 Data Sources
+
+### CRM System
+* **Customer Info**: Customer demographics, contact details
+* **Product Info**: Product catalog with pricing and lifecycle
+* **Sales Details**: Transactional sales data
+
+### ERP System
+* **Customer Master**: Additional customer attributes
+* **Location Data**: Geographic information
+* **Product Categories**: Product hierarchy and classifications
+
+---
+
+## 🎯 Business Value
+
+* **Single Source of Truth**: Integrated view of sales data across CRM and ERP
+* **Data Quality**: Consistent, validated, and clean data
+* **Analytics-Ready**: Star schema optimized for BI tools
+* **Automated**: Weekly refresh ensures up-to-date insights
+* **Scalable**: Delta Lake architecture supports growing data volumes
