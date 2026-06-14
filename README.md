@@ -2,6 +2,8 @@
 
 A **Medallion Architecture** (Bronze-Silver-Gold) data lakehouse built on Databricks, integrating data from two source systems (CRM & ERP) to create a dimensional model for analytics.
 
+📐 **[View Architecture Diagrams](ARCHITECTURE.md)** - Interactive visual diagrams showing data flow, technologies, and orchestration
+
 ---
 
 ## 📊 Architecture: 3-Layer Medallion Pattern
